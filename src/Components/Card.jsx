@@ -70,7 +70,7 @@ function Card() {
         </div>
     </div>
     <hr />
-    <button type="button" className="btn btn-danger" onClick={() => { handleDelete(e.id) }}>
+    <button type="button" className="btn btn-danger" id="remove" onClick={() => { handleDelete(e.id) }}>
         <b>Remove from Cart</b>
     </button>
 </div>
